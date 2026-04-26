@@ -53,8 +53,16 @@ jobs:
             [ -f "$deck" ] || continue
             slug=$(basename "$deck" .md)
             echo "::group::Render $slug"
+            # Stage deck in isolated workdir with shared layouts + style
+            workdir=$(mktemp -d)
+            cp "$deck" "$workdir/slides.md"
+            cp -r layouts "$workdir/"
+            cp style.css "$workdir/" 2>/dev/null || true
+            cp package.json "$workdir/"
+            (cd "$workdir" && npx slidev export slides.md --format png --output ./out/) || true
             mkdir -p "dist/$slug"
-            npx slidev export "$deck" --format png --output "dist/$slug/" || true
+            cp "$workdir"/out/*.png "dist/$slug/" 2>/dev/null || true
+            rm -rf "$workdir"
             ls -la "dist/$slug/" || true
             echo "::endgroup::"
           done
