@@ -71,10 +71,18 @@ jobs:
               [ -f "$src" ] || continue
               base=$(basename "$src")
               cp "$src" "dist/$slug/9-16/$base"
-              # 9:16 (2160x3840 retina) → crop center 4:5 (2160x2700)
-              convert "$src" -gravity center -crop 2160x2700+0+0 +repage "dist/$slug/4-5/$base"
-              # 9:16 → crop center 1:1 (2160x2160)
-              convert "$src" -gravity center -crop 2160x2160+0+0 +repage "dist/$slug/1-1/$base"
+              python3 -c "
+from PIL import Image
+img = Image.open('$src')
+w, h = img.size
+# 4:5 crop center
+target_h = int(w * 5 / 4)
+top = max(0, (h - target_h) // 2)
+img.crop((0, top, w, top + target_h)).save('dist/$slug/4-5/$base')
+# 1:1 crop center
+top = max(0, (h - w) // 2)
+img.crop((0, top, w, top + w)).save('dist/$slug/1-1/$base')
+"
             done
             rm -rf "$workdir"
             ls -la "dist/$slug"/*/ || true
