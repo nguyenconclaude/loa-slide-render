@@ -60,7 +60,8 @@ jobs:
             cp style.css "$workdir/" 2>/dev/null || true
             cp package.json "$workdir/"
             ln -s "$GITHUB_WORKSPACE/node_modules" "$workdir/node_modules"
-            (cd "$workdir" && "$GITHUB_WORKSPACE/node_modules/.bin/slidev" export slides.md --format png --output ./out/) || true
+            (cd "$workdir" && "$GITHUB_WORKSPACE/node_modules/.bin/slidev" export slides.md --format png --output ./out/ 2>&1 | tee /tmp/slidev-$slug.log) || true
+            echo "::group::slidev log $slug"; cat /tmp/slidev-$slug.log 2>/dev/null | tail -30; echo "::endgroup::"
             mkdir -p "dist/$slug"
             cp "$workdir"/out/*.png "dist/$slug/" 2>/dev/null || true
             rm -rf "$workdir"
