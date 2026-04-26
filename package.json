@@ -1,0 +1,17 @@
+{
+  "name": "loa-slide-render",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev decks/sample.md",
+    "build": "slidev build",
+    "export-png": "slidev export decks/sample.md --format png --output dist"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "playwright-chromium": "latest",
+    "vue": "latest"
+  }
+}

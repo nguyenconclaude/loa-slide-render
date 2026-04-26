@@ -1,0 +1,82 @@
+name: Render slides
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'decks/**.md'
+      - 'themes/**'
+      - 'package.json'
+      - '.github/workflows/render.yml'
+  workflow_dispatch:
+    inputs:
+      deck:
+        description: 'Deck file (e.g. decks/pansy.md)'
+        required: false
+        default: ''
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm install
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Detect changed decks
+        id: decks
+        run: |
+          if [ -n "${{ github.event.inputs.deck }}" ]; then
+            echo "files=${{ github.event.inputs.deck }}" >> $GITHUB_OUTPUT
+          else
+            CHANGED=$(git diff --name-only HEAD^ HEAD -- 'decks/*.md' 2>/dev/null | tr '\n' ' ')
+            if [ -z "$CHANGED" ]; then
+              CHANGED=$(ls decks/*.md 2>/dev/null | tr '\n' ' ')
+            fi
+            echo "files=$CHANGED" >> $GITHUB_OUTPUT
+          fi
+          echo "Will render: $CHANGED"
+
+      - name: Render decks to PNG
+        run: |
+          mkdir -p dist
+          for deck in ${{ steps.decks.outputs.files }}; do
+            [ -f "$deck" ] || continue
+            slug=$(basename "$deck" .md)
+            echo "::group::Render $slug"
+            mkdir -p "dist/$slug"
+            npx slidev export "$deck" --format png --output "dist/$slug/" || true
+            ls -la "dist/$slug/" || true
+            echo "::endgroup::"
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: slides-png-${{ github.run_id }}
+          path: dist/
+          retention-days: 7
+
+      - name: Create release with PNG assets
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="render-${{ github.run_number }}"
+          gh release create "$TAG" \
+            --title "Render run #${{ github.run_number }}" \
+            --notes "Auto-rendered from commit ${{ github.sha }}" \
+            --target ${{ github.sha }} || true
+          for f in $(find dist -type f -name '*.png'); do
+            gh release upload "$TAG" "$f" --clobber || true
+          done
