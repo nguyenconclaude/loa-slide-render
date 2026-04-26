@@ -1,5 +1,6 @@
 ---
 theme: default
+layout: default
 canvasWidth: 1080
 aspectRatio: 9/16
 fonts:
