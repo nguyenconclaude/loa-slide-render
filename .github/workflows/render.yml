@@ -6,6 +6,8 @@ on:
     paths:
       - 'decks/**.md'
       - 'themes/**'
+      - 'layouts/**'
+      - 'style.css'
       - 'package.json'
       - '.github/workflows/render.yml'
   workflow_dispatch:
