@@ -56,7 +56,7 @@ jobs:
             # Stage deck in isolated workdir with shared layouts + style
             workdir=$(mktemp -d)
             cp "$deck" "$workdir/slides.md"
-            cp -r layouts "$workdir/"
+            cp -r layouts "$workdir/" 2>/dev/null || true
             cp style.css "$workdir/" 2>/dev/null || true
             cp package.json "$workdir/"
             ln -s "$GITHUB_WORKSPACE/node_modules" "$workdir/node_modules"
