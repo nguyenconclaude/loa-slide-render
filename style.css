@@ -1,34 +1,35 @@
-/* Foodquest editorial — apply skill cover-design-principles */
+/* Foodquest editorial — mobile-first 9:16, safe zone centered.
+   Skill: cover-design-principles + multi-platform safe zones. */
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Inter:wght@400;500;700&subset=vietnamese,latin&display=swap');
 
 :root {
   --fq-cream: #f8f0dc;
   --fq-tan: #d2af82;
+  --fq-bg: #0a0a0a;
+
+  /* Safe zone: top 12% + bottom 28% reserved (TikTok worst case) */
+  --safe-top: 12%;
+  --safe-bottom: 28%;
 }
 
+/* Slidev container reset */
 .slidev-page,
 .slidev-layout {
   padding: 0 !important;
   margin: 0 !important;
-  background: #0a0a0a !important;
+  background: var(--fq-bg) !important;
   width: 100% !important;
   height: 100% !important;
-  max-width: 100% !important;
-  max-height: 100% !important;
   display: block !important;
+  overflow: hidden !important;
 }
 
-/* Direct children fill the slide */
-.fq-cover, .fq-inner {
-  width: 100%;
-  height: 100%;
-}
-
-.fq-cover, .fq-inner {
-  width: 100%;
-  height: 100%;
+/* Universal slide */
+.fq-slide {
   position: relative;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   font-family: 'Inter', system-ui, sans-serif;
@@ -36,93 +37,99 @@
   overflow: hidden;
 }
 
-.fq-cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.fq-gradient {
+/* Subtle vignette for hero cover (photo dominant) */
+.fq-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom,
-    rgba(0,0,0,0) 0%,
-    rgba(12,14,10,0.6) 45%,
-    rgba(12,14,10,0.95) 100%);
+  background: linear-gradient(180deg,
+    rgba(10,10,10,0.25) 0%,
+    rgba(10,10,10,0.05) 35%,
+    rgba(10,10,10,0.45) 75%,
+    rgba(10,10,10,0.85) 100%);
 }
 
-.fq-text-block {
-  position: relative;
-  padding: 0 80px 110px 80px;
+/* Heavy overlay for content slides */
+.fq-overlay-strong {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg,
+    rgba(10,10,10,0.55) 0%,
+    rgba(10,10,10,0.40) 30%,
+    rgba(10,10,10,0.55) 60%,
+    rgba(10,10,10,0.92) 100%);
+}
+
+/* SAFE ZONE — center 60% vertical (above platform UI overlays) */
+.fq-safe-zone {
+  position: absolute;
+  left: 80px;
+  right: 80px;
+  top: var(--safe-top);
+  bottom: var(--safe-bottom);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+/* Cover specifics */
+.fq-cover .fq-safe-zone {
+  justify-content: center;
 }
 
 .fq-eyebrow {
-  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
   color: var(--fq-tan);
-  letter-spacing: 0.24em;
+  letter-spacing: 0.28em;
   font-weight: 500;
-  margin-bottom: 28px;
+  margin-bottom: 40px;
+  line-height: 1;
 }
 
 .fq-hook {
   font-family: 'Lora', serif;
-  font-size: 96px;
-  line-height: 1.1;
+  font-size: 130px;
+  line-height: 1.05;
   color: var(--fq-cream);
-  letter-spacing: -0.015em;
+  letter-spacing: -0.02em;
   font-weight: 700;
+  margin: 0;
 }
 
 .fq-accent {
-  width: 60px;
-  height: 2px;
+  width: 80px;
+  height: 3px;
   background: var(--fq-tan);
-  margin: 36px 0 20px;
+  margin: 56px 0 32px;
 }
 
 .fq-tagline {
-  font-size: 22px;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
   color: var(--fq-tan);
-  letter-spacing: 0.18em;
+  letter-spacing: 0.20em;
   font-weight: 500;
+  line-height: 1.3;
 }
 
-.fq-inner {
-  display: flex;
-  flex-direction: column;
-  background-position: top;
-}
-
-.fq-photo-half { display: none; }
-
-.fq-body {
-  margin-top: auto;
-  padding: 60px 80px;
-  background: linear-gradient(to top, rgba(12,14,10,0.95) 60%, rgba(12,14,10,0));
-}
-
-.fq-small-eyebrow {
-  font-size: 16px;
-  color: var(--fq-tan);
-  letter-spacing: 0.28em;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
+/* Inner slide content (slide 2, 3) */
 .fq-body-hook {
   font-family: 'Lora', serif;
-  font-size: 56px;
-  line-height: 1.2;
+  font-size: 96px;
+  line-height: 1.05;
   color: var(--fq-cream);
   font-weight: 700;
-  margin-bottom: 24px;
+  letter-spacing: -0.015em;
+  margin: 0 0 48px 0;
 }
 
 .fq-body-text {
-  font-size: 22px;
-  line-height: 1.5;
-  color: rgba(248, 240, 220, 0.85);
-  max-width: 800px;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  line-height: 1.45;
+  color: rgba(248, 240, 220, 0.92);
+  font-weight: 400;
+  max-width: 90%;
 }
