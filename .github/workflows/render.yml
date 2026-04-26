@@ -71,18 +71,7 @@ jobs:
               [ -f "$src" ] || continue
               base=$(basename "$src")
               cp "$src" "dist/$slug/9-16/$base"
-              python3 -c "
-from PIL import Image
-img = Image.open('$src')
-w, h = img.size
-# 4:5 crop center
-target_h = int(w * 5 / 4)
-top = max(0, (h - target_h) // 2)
-img.crop((0, top, w, top + target_h)).save('dist/$slug/4-5/$base')
-# 1:1 crop center
-top = max(0, (h - w) // 2)
-img.crop((0, top, w, top + w)).save('dist/$slug/1-1/$base')
-"
+              python3 -c "from PIL import Image; img=Image.open('$src'); w,h=img.size; t=int(w*5/4); top=max(0,(h-t)//2); img.crop((0,top,w,top+t)).save('dist/$slug/4-5/$base'); top=max(0,(h-w)//2); img.crop((0,top,w,top+w)).save('dist/$slug/1-1/$base')"
             done
             rm -rf "$workdir"
             ls -la "dist/$slug"/*/ || true
