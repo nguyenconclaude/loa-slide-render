@@ -59,7 +59,8 @@ jobs:
             cp -r layouts "$workdir/"
             cp style.css "$workdir/" 2>/dev/null || true
             cp package.json "$workdir/"
-            (cd "$workdir" && npx slidev export slides.md --format png --output ./out/) || true
+            ln -s "$GITHUB_WORKSPACE/node_modules" "$workdir/node_modules"
+            (cd "$workdir" && "$GITHUB_WORKSPACE/node_modules/.bin/slidev" export slides.md --format png --output ./out/) || true
             mkdir -p "dist/$slug"
             cp "$workdir"/out/*.png "dist/$slug/" 2>/dev/null || true
             rm -rf "$workdir"
