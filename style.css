@@ -42,10 +42,30 @@
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg,
-    rgba(10,10,10,0.25) 0%,
-    rgba(10,10,10,0.05) 35%,
-    rgba(10,10,10,0.45) 75%,
-    rgba(10,10,10,0.85) 100%);
+    rgba(10,10,10,0.40) 0%,
+    rgba(10,10,10,0.20) 25%,
+    rgba(10,10,10,0.55) 60%,
+    rgba(10,10,10,0.90) 100%);
+}
+
+/* Scrim band behind text in safe zone — center 50% vertical, soft blur */
+.fq-cover .fq-safe-zone::before {
+  content: '';
+  position: absolute;
+  left: -40px;
+  right: -40px;
+  top: 8%;
+  bottom: 8%;
+  background: rgba(8,10,8,0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.fq-cover .fq-safe-zone {
+  position: absolute;
+  z-index: 2;
 }
 
 /* Heavy overlay for content slides */
