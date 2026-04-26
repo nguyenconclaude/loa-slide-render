@@ -1,5 +1,5 @@
 ---
-theme: ./themes/foodquest-editorial
+theme: default
 canvasWidth: 1080
 aspectRatio: 4/5
 voice: food
@@ -8,10 +8,8 @@ fonts:
   sans: Inter
   serif: Lora
   weights: '400,500,700'
-  local: 'Inter,Lora'
   fallbacks: false
 download: false
-exportFilename: pansy
 ---
 
 ---
