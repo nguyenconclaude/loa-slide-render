@@ -7,9 +7,20 @@
   --fq-tan: #d2af82;
 }
 
-.slidev-page {
+.slidev-page,
+.slidev-layout,
+.slidev-layout > * {
   padding: 0 !important;
+  margin: 0 !important;
   background: #0a0a0a !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.slidev-layout {
+  display: block !important;
 }
 
 .fq-cover, .fq-inner {
