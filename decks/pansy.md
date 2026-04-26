@@ -10,7 +10,7 @@ fonts:
 download: false
 ---
 
-<div class="fq-slide fq-cover" style="background-image: url('https://images.pexels.com/photos/5507768/pexels-photo-5507768.jpeg?auto=compress&cs=tinysrgb&h=1920&w=1080')">
+<div class="fq-slide fq-cover" style="background-image: url('/photos/pansy-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
@@ -22,7 +22,7 @@ download: false
 
 ---
 
-<div class="fq-slide fq-inner" style="background-image: url('https://images.pexels.com/photos/10432457/pexels-photo-10432457.jpeg?auto=compress&cs=tinysrgb&h=1920&w=1080')">
+<div class="fq-slide fq-inner" style="background-image: url('/photos/pansy-plating.jpg')">
   <div class="fq-overlay-strong"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">CÁCH DÙNG · 01</div>
@@ -33,7 +33,7 @@ download: false
 
 ---
 
-<div class="fq-slide fq-inner" style="background-image: url('https://images.pexels.com/photos/9882308/pexels-photo-9882308.jpeg?auto=compress&cs=tinysrgb&h=1920&w=1080')">
+<div class="fq-slide fq-inner" style="background-image: url('/photos/pansy-cocktail.jpg')">
   <div class="fq-overlay-strong"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">CÁCH DÙNG · 02</div>
