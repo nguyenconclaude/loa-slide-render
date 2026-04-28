@@ -1,6 +1,4 @@
 ---
-theme: ../style.css
+layout: cover
 ---
-# Test
-
-Slide test 4:5
+# Test slide
