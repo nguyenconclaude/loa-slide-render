@@ -15,7 +15,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">TIN NGẮN · WEEKLY</div>
-    <div class="fq-hook">Nâng tầm vai trò hòa giải viên cộng đồng</div>
+    <div class="fq-hook">Nâng tầm chất lượng hòa giải ở cơ sở</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">VIỆT NAM TƯƠNG LAI</div>
   </div>
