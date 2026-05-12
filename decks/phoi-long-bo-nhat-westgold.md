@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -14,9 +13,9 @@ download: false
 <div class="fq-slide fq-cover" style="background-image: url('/photos/phoi-long-bo-nhat-westgold-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
-    <div class="fq-eyebrow">GIA DỤNG · CẶP ĐÔI</div>
-    <div class="fq-hook">Phới lồng và bơ nhạt Westgold cho món bánh bông xốp.</div>
+    <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
+    <div class="fq-hook">Ai từng mê mẩn những chiếc bánh bông lan mềm mại, hay những </div>
     <div class="fq-accent"></div>
-    <div class="fq-tagline">DỤNG CỤ × NGUYÊN LIỆU</div>
+    <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
 </div>
