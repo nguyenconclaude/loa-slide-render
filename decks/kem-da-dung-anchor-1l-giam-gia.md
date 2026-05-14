@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Mức giá 110.000đ cho hộp Kem đa dụng Anchor 1L (Cream Alternative) đang xuất hiệ</div>
+    <div class="fq-hook">Mức giá 110.000đ cho hộp Kem đa dụng Anchor 1L (Cream Altern</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
