@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Để đạt được kết cấu hoàn hảo cho món tráng miệng hoặc các ch</div>
+    <div class="fq-hook">Để đạt được kết cấu hoàn hảo cho món tráng miệng hoặc các chế phẩm đông đặc, việ</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
