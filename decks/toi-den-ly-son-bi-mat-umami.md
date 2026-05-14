@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Cầm trên tay củ tỏi đen Lý Sơn, màu đen tuyền óng ả như đá n</div>
+    <div class="fq-hook">Cầm trên tay củ tỏi đen Lý Sơn, màu đen tuyền óng ả như đá núi lửa, vỏ ngoài khô</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
