@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Giá bơ nhạt Westgold 250g đang có tín hiệu tốt. Tuần này, mộ</div>
+    <div class="fq-hook">Giá bơ nhạt Westgold 250g đang có tín hiệu tốt. Tuần này, một số nhà cung cấp đã</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
