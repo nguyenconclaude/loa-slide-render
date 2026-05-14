@@ -101,4 +101,3 @@ jobs:
           for f in $(find dist -type f -name '*.png'); do
             gh release upload "$TAG" "$f" --clobber || true
           done
-# scope verified Thu May 14 16:24:01 +07 2026
