@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Dừng lại trước quầy trái cây nhập, có một loại quả màu xanh </div>
+    <div class="fq-hook">Dừng lại trước quầy trái cây nhập, có một loại quả màu xanh thẫm, nhỏ như hạt cư</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
