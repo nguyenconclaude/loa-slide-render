@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Có những ngày ở chợ, sạp bơ xanh mướt, xếp thành từng đống, </div>
+    <div class="fq-hook">Có những ngày ở chợ, sạp bơ xanh mướt, xếp thành từng đống, mỗi quả tròn đầy, gợ</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
