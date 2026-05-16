@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Khi một miếng thăn bò Rib Eye được đặt lên thớt, người đầu bếp chưa vội đặt dao </div>
+    <div class="fq-hook">Một miếng thịt thăn bò Rib Eye đặt trên thớt, vân mỡ trắng x</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
