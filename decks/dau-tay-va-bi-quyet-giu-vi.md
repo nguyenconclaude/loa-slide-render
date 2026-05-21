@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Mấy năm nay, khi dâu tây không còn là thức quả quá xa lạ ở chợ Phùng Hưng, người</div>
+    <div class="fq-hook">Mấy năm nay, khi dâu tây không còn là thức quả quá xa lạ ở c</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
