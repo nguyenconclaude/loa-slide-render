@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Thường thì, nhắc đến vị chua trong bếp Việt, người ta nghĩ n</div>
+    <div class="fq-hook">Thường thì, nhắc đến vị chua trong bếp Việt, người ta nghĩ ngay tới quả chanh xa</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
