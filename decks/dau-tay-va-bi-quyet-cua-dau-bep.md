@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Mấy ngày nay, góc hàng rau quả Liên Hoa thơm lừng mùi dâu tây. Cái mùi chua dịu,</div>
+    <div class="fq-hook">Mấy ngày nay, góc hàng rau quả Liên Hoa thơm lừng mùi dâu tâ</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
