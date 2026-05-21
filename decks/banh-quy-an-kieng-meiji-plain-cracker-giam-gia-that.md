@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Trong số các lựa chọn bánh quy ăn kiêng, Bánh Quy Ăn Kiêng Meiji Plain Cracker 1</div>
+    <div class="fq-hook">Trong số các lựa chọn bánh quy ăn kiêng, Bánh Quy Ăn Kiêng M</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
