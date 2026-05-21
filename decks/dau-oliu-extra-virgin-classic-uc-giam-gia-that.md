@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Trong các loại dầu ăn nhập khẩu, dầu ô liu extra virgin ép l</div>
+    <div class="fq-hook">Trong các loại dầu ăn nhập khẩu, dầu ô liu extra virgin ép lạnh Classic 750ml củ</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
