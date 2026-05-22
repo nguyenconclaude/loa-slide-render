@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -14,9 +13,9 @@ download: false
 <div class="fq-slide fq-cover" style="background-image: url('/photos/dam-y-casa-rinaldi-balsamico-ky-thuat-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
-    <div class="fq-eyebrow">Á ÂU CHEF · TECHNICAL</div>
-    <div class="fq-hook">Phân tích kỹ thuật Dấm Ý Balsamico Casa Rinaldi: Độ chua, độ</div>
+    <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
+    <div class="fq-hook">Trong thế giới ẩm thực chuyên nghiệp, Balsamic vinegar không</div>
     <div class="fq-accent"></div>
-    <div class="fq-tagline">NGUYÊN LIỆU NHẬP · BẾP CHUYÊN</div>
+    <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
 </div>
