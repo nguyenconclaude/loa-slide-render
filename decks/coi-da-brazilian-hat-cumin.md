@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Mỗi khi bước vào bếp, hương thơm từ các loại gia vị luôn là </div>
+    <div class="fq-hook">Mỗi khi bước vào bếp, hương thơm từ các loại gia vị luôn là điều làm anh/chị say</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
