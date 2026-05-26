@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Bạn có bao giờ cảm thấy khó khăn khi rưới dấm lên món salad,</div>
+    <div class="fq-hook">Bạn có bao giờ cảm thấy khó khăn khi rưới dấm lên món salad, lúc thì quá nhiều, </div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
