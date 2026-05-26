@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Thường xuyên có mặt trong danh sách cần mua của nhiều gia đì</div>
+    <div class="fq-hook">Thường xuyên có mặt trong danh sách cần mua của nhiều gia đình, Bơ mặn Anchor 20</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
