@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Trên sạp rau quả, cạnh những loại trái cây quen thuộc của mi</div>
+    <div class="fq-hook">Trên sạp rau quả, cạnh những loại trái cây quen thuộc của miền Bắc, luôn có một </div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
