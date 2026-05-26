@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Ngồi một lát ở góc chợ, thấy mấy sọt bơ mới về. Màu xanh đậm</div>
+    <div class="fq-hook">Ngồi một lát ở góc chợ, thấy mấy sọt bơ mới về. Màu xanh đậm xen lẫn chút tím th</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
