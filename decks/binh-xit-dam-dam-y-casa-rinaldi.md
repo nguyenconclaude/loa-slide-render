@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -14,9 +13,9 @@ download: false
 <div class="fq-slide fq-cover" style="background-image: url('/photos/binh-xit-dam-dam-y-casa-rinaldi-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
-    <div class="fq-eyebrow">GIA DỤNG · CẶP ĐÔI</div>
-    <div class="fq-hook">Bình xịt dấm và Dấm Ý Casa Rinaldi cho món ăn thêm hoàn hảo.</div>
+    <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
+    <div class="fq-hook">Bạn có bao giờ cảm thấy khó khăn khi rưới dấm lên món salad,</div>
     <div class="fq-accent"></div>
-    <div class="fq-tagline">DỤNG CỤ × NGUYÊN LIỆU</div>
+    <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
 </div>
