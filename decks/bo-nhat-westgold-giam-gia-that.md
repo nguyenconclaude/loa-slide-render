@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Những người làm bánh hay nội trợ sành ăn thường quan tâm đến chất lượng bơ nhạt,</div>
+    <div class="fq-hook">Những người làm bánh hay nội trợ sành ăn thường quan tâm đến</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
