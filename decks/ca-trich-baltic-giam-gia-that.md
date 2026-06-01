@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Trong các loại cá hộp nhập khẩu, cá trích Baltic ngâm dầu củ</div>
+    <div class="fq-hook">Trong các loại cá hộp nhập khẩu, cá trích Baltic ngâm dầu của Glavproduct (Nga) </div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
