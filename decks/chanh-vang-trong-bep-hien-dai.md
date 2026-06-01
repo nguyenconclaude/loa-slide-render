@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -15,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Kể chuyện về chanh vàng và bí quyết dùng trong bếp chuyên ng</div>
+    <div class="fq-hook">Một quả chanh vàng, đôi khi chỉ nằm lặng lẽ trong giỏ hàng, lại mang đến một mùi</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
