@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -14,9 +13,9 @@ download: false
 <div class="fq-slide fq-cover" style="background-image: url('/photos/cay-can-bot-go-va-bot-mi-hoa-ngoc-lan-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
-    <div class="fq-eyebrow">GIA DỤNG · CẶP ĐÔI</div>
-    <div class="fq-hook">Bí quyết cán bột mỏng đều với cây cán bột gỗ và bột mì Hoa N</div>
+    <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
+    <div class="fq-hook">Làm bánh tại nhà, công đoạn cán bột thường khiến nhiều người chùn tay. Bột lúc d</div>
     <div class="fq-accent"></div>
-    <div class="fq-tagline">DỤNG CỤ × NGUYÊN LIỆU</div>
+    <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
 </div>
