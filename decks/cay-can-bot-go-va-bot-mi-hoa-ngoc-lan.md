@@ -15,7 +15,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">GIA DỤNG · CẶP ĐÔI</div>
-    <div class="fq-hook">Kết hợp cây cán bột gỗ và bột mì Hoa Ngọc Lan cho vỏ bánh ho</div>
+    <div class="fq-hook">Bí quyết cán bột mỏng đều với cây cán bột gỗ và bột mì Hoa N</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">DỤNG CỤ × NGUYÊN LIỆU</div>
   </div>
