@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -14,9 +13,9 @@ download: false
 <div class="fq-slide fq-cover" style="background-image: url('/photos/dau-oliu-extra-virgin-ep-lanh-uc-giam-gia-that-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
-    <div class="fq-eyebrow">DEAL HUNT · PRICE WATCH</div>
-    <div class="fq-hook">Săn deal dầu oliu Extra Virgin ép lạnh Classic 750ml Úc giảm</div>
+    <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
+    <div class="fq-hook">Thời điểm này, tìm một chai dầu oliu Extra Virgin chuẩn chất lượng với giá tốt k</div>
     <div class="fq-accent"></div>
-    <div class="fq-tagline">SO GIÁ · ALERT THẬT</div>
+    <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
 </div>
