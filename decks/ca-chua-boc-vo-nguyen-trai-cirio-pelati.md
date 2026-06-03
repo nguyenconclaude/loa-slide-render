@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Trong nền ẩm thực Ý, một hũ cà chua bóc vỏ nguyên trái không</div>
+    <div class="fq-hook">Trong nền ẩm thực Ý, một hũ cà chua bóc vỏ nguyên trái không chỉ là nguyên liệu </div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
