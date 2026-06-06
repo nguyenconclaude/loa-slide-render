@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Đi chợ, anh hay để ý cách người ta chọn cam. Cam vàng Mỹ, vớ</div>
+    <div class="fq-hook">Đi chợ, anh hay để ý cách người ta chọn cam. Cam vàng Mỹ, với cái vỏ căng bóng v</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
