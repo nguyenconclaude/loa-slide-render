@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Với những người đứng bếp chuyên nghiệp, việc lựa chọn loại pasta không chỉ dừng </div>
+    <div class="fq-hook">Với những người đứng bếp chuyên nghiệp, việc lựa chọn loại p</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
