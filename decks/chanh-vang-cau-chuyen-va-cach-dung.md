@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Đôi khi, đứng ở quầy rau củ, anh thấy khách hàng cầm quả cha</div>
+    <div class="fq-hook">Đôi khi, đứng ở quầy rau củ, anh thấy khách hàng cầm quả chanh vàng lên ngắm khá</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
