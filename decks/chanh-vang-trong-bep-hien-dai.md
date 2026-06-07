@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Một quả chanh vàng, đôi khi chỉ nằm lặng lẽ trong giỏ hàng, </div>
+    <div class="fq-hook">Một quả chanh vàng, đôi khi chỉ nằm lặng lẽ trong giỏ hàng, lại mang đến một mùi</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
