@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -14,9 +13,9 @@ download: false
 <div class="fq-slide fq-cover" style="background-image: url('/photos/bo-nhat-westgold-250g-giam-gia-that-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
-    <div class="fq-eyebrow">DEAL HUNT · PRICE WATCH</div>
-    <div class="fq-hook">Bơ nhạt Westgold 250g đang có đợt giảm giá thật trên thị trư</div>
+    <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
+    <div class="fq-hook">Dạo một vòng các hội nhóm nội trợ và cả siêu thị, mình thấy </div>
     <div class="fq-accent"></div>
-    <div class="fq-tagline">SO GIÁ · ALERT THẬT</div>
+    <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
 </div>
