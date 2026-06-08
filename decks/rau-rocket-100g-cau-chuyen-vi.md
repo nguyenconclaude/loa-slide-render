@@ -14,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Ở góc rau củ, những bó rau rocket xanh thẫm, lá nhỏ, răng cưa thường nằm cạnh xà</div>
+    <div class="fq-hook">Ở góc rau củ, những bó rau rocket xanh thẫm, lá nhỏ, răng cư</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
