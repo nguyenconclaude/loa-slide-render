@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -14,9 +13,9 @@ download: false
 <div class="fq-slide fq-cover" style="background-image: url('/photos/bo-man-anchor-200g-ky-thuat-ung-dung-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
-    <div class="fq-eyebrow">Á ÂU CHEF · TECHNICAL</div>
-    <div class="fq-hook">Phân tích kỹ thuật bơ mặn Anchor 200g: độ béo, hàm lượng muố</div>
+    <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
+    <div class="fq-hook">Trong bếp chuyên nghiệp, bơ mặn không chỉ đơn thuần là một n</div>
     <div class="fq-accent"></div>
-    <div class="fq-tagline">NGUYÊN LIỆU NHẬP · BẾP CHUYÊN</div>
+    <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
 </div>
