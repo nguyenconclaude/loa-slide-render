@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -15,7 +14,7 @@ download: false
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
     <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
-    <div class="fq-hook">Câu chuyện về việt quất tươi và bí quyết dùng của đầu bếp.</div>
+    <div class="fq-hook">Những trái việt quất tươi, căng mọng, thường nằm lặng lẽ trong góc tủ mát. Anh h</div>
     <div class="fq-accent"></div>
     <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
