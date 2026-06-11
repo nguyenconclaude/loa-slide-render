@@ -6,7 +6,6 @@ aspectRatio: 9/16
 fonts:
   sans: Inter
   serif: Lora
-  weights: '400,500,700'
   fallbacks: false
 download: false
 ---
@@ -14,9 +13,9 @@ download: false
 <div class="fq-slide fq-cover" style="background-image: url('/photos/deal-bo-man-anchor-200g-cover.jpg')">
   <div class="fq-overlay"></div>
   <div class="fq-safe-zone">
-    <div class="fq-eyebrow">DEAL HUNT · PRICE WATCH</div>
-    <div class="fq-hook">Săn deal bơ mặn Anchor 200g với mức giá giảm sâu thật.</div>
+    <div class="fq-eyebrow">FOODQUEST · EDITORIAL</div>
+    <div class="fq-hook">Anh thấy nhiều nhà đang tìm bơ mặn Anchor 200g để làm bánh và chế biến món ăn. T</div>
     <div class="fq-accent"></div>
-    <div class="fq-tagline">SO GIÁ · ALERT THẬT</div>
+    <div class="fq-tagline">ĂN ĐƯỢC · ĐẸP · CÓ SẴN</div>
   </div>
 </div>
